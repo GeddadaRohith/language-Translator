@@ -1,0 +1,102 @@
+/* Ensure the entire page is centered */
+body {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  /* Centers vertically */
+    min-height: 100vh;  /* Full height */
+    background-color: #8c8c80; /* Adjust background color if needed */
+    margin: 0;
+}
+
+/* Style for the container */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Adjust width */
+    width: 90%; /* Responsive width */
+    text-align: center;
+}
+
+
+/* Center Content */
+center {
+    margin-top: 50px;
+    background: white;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    color: #435228;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: black;
+}
+
+/* Input Fields */
+input[type="text"], select, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #7F706B;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+/* Dropdown */
+select {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Button */
+button {
+    background-color: #435228;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: black;
+}
+
+/* Translated Output */
+textarea {
+    resize: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #F8F9FA;
+    border: 1px solid #7F706B;
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    center {
+        width: 90%;
+    }
+    
+    input[type="text"], select, textarea {
+        width: 100%;
+    }
+}
